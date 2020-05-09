@@ -6,6 +6,13 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/asad/benchmark.svg?style=flat-square)](https://packagist.org/packages/asad/benchmark)
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://packagist.org/packages/asad/benchmark)
 
+This package only for the Laravel App. If you want to use this package in non-laravel App then use this [Ubench](https://github.com/devster/ubench)
+
+## Requirements
+
+- [PHP >= 7.1](http://php.net/)
+- [Laravel 5.\*](https://github.com/laravel/framework)
+
 ## Installation
 
 You can install the package via composer:
