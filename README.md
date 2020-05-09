@@ -10,7 +10,6 @@ This package only for the Laravel App. If you want to use this package in non-la
 
 ## Requirements
 
-- [PHP ^5.6|^7.0](http://php.net/)
 - [Laravel 5.\*](https://laravel.com/docs/5.0#server-requirements)
 
 ## Installation

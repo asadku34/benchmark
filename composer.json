@@ -17,9 +17,6 @@
       "homepage": "https://github.com/asadku34"
     }
   ],
-  "require": {
-    "php": "^5.6|^7.0"
-  },
   "require-dev": {
     "orchestra/testbench": "^3.0",
     "squizlabs/php_codesniffer": "^3.1"
