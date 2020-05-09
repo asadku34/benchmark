@@ -20,7 +20,6 @@
   "require": {
     "php": "^7.1"
   },
-  "minimum-stability": "stable",
   "require-dev": {
     "orchestra/testbench": "^3.8",
     "squizlabs/php_codesniffer": "^2.0"
