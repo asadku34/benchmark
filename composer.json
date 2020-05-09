@@ -1,0 +1,55 @@
+{
+  "name": "asad/benchmark",
+  "description": "Micro PHP library for benchmarking",
+  "keywords": [
+    "laravel",
+    "benchmark",
+    "ubench",
+    "devster",
+    "asad"
+  ],
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Asadur Rahman",
+      "email": "asadku34@gamil.com",
+      "homepage": "https://github.com/asadku34"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "minimum-stability": "stable",
+  "require-dev": {
+    "orchestra/testbench": "^3.8",
+    "squizlabs/php_codesniffer": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Asad\\Bench\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Asad\\Bench\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "check": "phpcs src --standard=psr2 -sp"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Asad\\Bench\\BenchmarkServiceProvider"
+      ],
+      "aliases": {
+        "Benchmark": "Asad\\Bench\\BFacade"
+      }
+    }
+  }
+}
